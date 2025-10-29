@@ -1,0 +1,83 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2fdf2; /* light mint background */
+  color: #222;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #2e8b57; /* main green */
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #dfffdf; /* soft mint on hover */
+}
+
+/* Form section */
+section {
+  background-color: white;
+  margin: 40px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+}
+
+section h2 {
+  text-align: center;
+  color: #2e8b57;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #2e8b57;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #246b45; /* darker green when hover */
+}
